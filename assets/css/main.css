@@ -936,10 +936,10 @@
     right: 0;
     height: var(--header-sort-bar-height);
     background-color: var(--white-color);
-    display: flex;
     list-style: none;
     margin: 0;
     padding-left: 0;
+    display: none;
 }
 
 .header__sort-item {
@@ -959,7 +959,7 @@
     position: relative;
 }
 
-.header__sort-link::before:n {
+.header__sort-link::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -967,6 +967,30 @@
     height: 60%;
     border-left: 1px solid rgba(0,0,0,.12);
     transform: translateY(-50%);
+}
+
+.header__sort-link::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    right: 0;
+    background: var(--primary-color);
+    animation: fadeIn 0.5s ease;
+    display: none;
+}
+
+.header__sort-item--indicator .header__sort-link::after {
+    display: block;
+}
+
+.header__sort-item:first-child .header__sort-link::before {
+    display: none;
+}
+
+.header__sort-link--active .header__sort-link {
+    color: var(--primary-color);
 }
 
 /* App container */
