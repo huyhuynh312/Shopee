@@ -3,6 +3,7 @@
     :root {
         --header-height: 60px;
         --navbar-height: 0px;
+        -webkit-tap-highlight-color: transparent;
     }
     .hide-on-mobile-tablet {
         display: none;
@@ -32,6 +33,12 @@
     }
     .header__sort-bar {
         display: flex;
+    }
+    .app__content {
+        padding-top: 8px;
+    }
+    .mobile-category {
+        display: block;
     }
 }
 
