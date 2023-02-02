@@ -110,4 +110,7 @@
     .app__content {
         margin: 0;
     }
+    .header__logo-img {
+        width: 110px;
+    }
 }
