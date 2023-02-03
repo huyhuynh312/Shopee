@@ -113,4 +113,8 @@
     .header__logo-img {
         width: 110px;
     }
+    .home-product-item__tag-deal,
+    .home-product-item__tag-deal-percent {
+        font-size: 0.9rem;
+    }
 }
