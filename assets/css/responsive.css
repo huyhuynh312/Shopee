@@ -43,8 +43,41 @@
     .home-product__pagination {
         margin: 20px 0;
     }
+    .footer__text {
+        padding: 16px 0;
+    }
     .footer-heading {
         margin: 16px 0;
+    }
+    .home-product-item__tag-deal,
+    .home-product-item__tag-deal-percent {
+        line-height: 1.4rem;
+    }
+    .home-product-item__rating {
+        margin: 8px 10px 0;
+    }
+    .footer__footer {
+        padding: 20px 0;
+    }
+    .footer__policy {
+        flex-wrap: wrap;
+    }
+    .footer__policy-link {
+        width: 50%;
+        font-size: 1.1rem;
+        text-align: center;
+        border: none;
+        height: 36px;
+        position: relative;
+    }
+    .footer__policy-link::after {
+        position: absolute;
+        content: "";
+        width: 1px;
+        height: 14px;
+        background-color: var(--border-color);
+        right: 0;
+        top: calc(50% - 16px);
     }
 }
 
@@ -56,6 +89,15 @@
     .header__cart {
         width: 80px;
         text-align: right;
+    }
+    .footer__text {
+        display: block;
+    }
+    .footer__text-region {
+        margin-top: 5px;
+    }
+    .footer__text-region p {
+        margin: 0;
     }
 }
 

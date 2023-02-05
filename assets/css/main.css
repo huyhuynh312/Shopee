@@ -1290,6 +1290,14 @@
     color: #f69113;
 }
 
+.home-product-item__tag-deal-discount-tag:first-child {
+    margin-right: 1px;
+}
+
+.home-product-item__tag-deal-discount-tag:last-child {
+    margin-left: 1px;
+}
+
 .home-product-item__tag-deal-percent {
     font-size: 1rem;
     color: var(--white-color);
@@ -1641,6 +1649,7 @@
 .footer__policy-link {
     text-decoration: none;
     text-transform: uppercase;
+    background-color: transparent;
     font-size: 1.2rem;
     color: #737373;
     padding: 0 25px;
