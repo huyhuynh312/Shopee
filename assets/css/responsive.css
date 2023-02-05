@@ -40,6 +40,12 @@
     .mobile-category {
         display: block;
     }
+    .home-product__pagination {
+        margin: 20px 0;
+    }
+    .footer-heading {
+        margin: 16px 0;
+    }
 }
 
 /*Tablet */
@@ -116,5 +122,8 @@
     .home-product-item__tag-deal,
     .home-product-item__tag-deal-percent {
         font-size: 0.9rem;
+    }
+    .footer-body {
+        padding: 0 16px;
     }
 }
