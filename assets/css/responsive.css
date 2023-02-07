@@ -91,6 +91,9 @@
     .footer__heading {
         padding: 0;
     }
+    .mobile-footer__heading {
+        display: flex;
+    }
 }
 
 /*Tablet */

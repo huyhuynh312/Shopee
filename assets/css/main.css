@@ -1688,6 +1688,7 @@
     padding: 8px 20px;
     background-color: var(--white-color);
     height: 36px;
+    display: none;
 }
 
 .mobile-footer__heading-item {
