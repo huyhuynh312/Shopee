@@ -88,6 +88,9 @@
     .footer__heading-item {
         display: none;
     }
+    .footer__heading {
+        padding: 0;
+    }
 }
 
 /*Tablet */

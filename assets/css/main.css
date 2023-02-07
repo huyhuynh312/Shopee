@@ -1687,6 +1687,7 @@
     align-items: center;
     padding: 8px 20px;
     background-color: var(--white-color);
+    height: 36px;
 }
 
 .mobile-footer__heading-item {
@@ -1704,5 +1705,6 @@
 .mobile-footer__heading-item-icon {
     width: 7px;
     height: 7px;
-    color: var(--primary-color);
+    fill: var(--primary-color);
+    display: inline-block;
 }
